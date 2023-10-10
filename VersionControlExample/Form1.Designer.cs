@@ -89,6 +89,7 @@
             SaveBtn.TabIndex = 5;
             SaveBtn.Text = "Save";
             SaveBtn.UseVisualStyleBackColor = true;
+            SaveBtn.Click += SaveBtn_Click;
             // 
             // LblResult
             // 

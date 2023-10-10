@@ -6,5 +6,13 @@ namespace VersionControlExample
         {
             InitializeComponent();
         }
+
+        private void SaveBtn_Click(object sender, EventArgs e)
+        {
+            string fullName = txtFullName.Text;
+            string address = txtBoxAddress.Text;
+
+            LblResult.Text = fullName + " resides " + address;
+        }
     }
 }
